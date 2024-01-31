@@ -10,7 +10,7 @@
 #clone_dir="stable-diffusion-webui"
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
-export COMMANDLINE_ARGS="--ngrok "2bgSFJcxfMsz8Pv9qTOGeWABfOi_6ZV27TAurGb6w2RoWUXRa" --share --ckpt-dir "/kaggle/temp/models" --vae-path '/kaggle/working/stable-diffusion-webui/models/VAE'"
+export COMMANDLINE_ARGS="--ngrok '2bgSFJcxfMsz8Pv9qTOGeWABfOi_6ZV27TAurGb6w2RoWUXRa' --share"
 
 # python3 executable
 #python_cmd="python3"

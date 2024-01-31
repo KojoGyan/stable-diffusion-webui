@@ -10,15 +10,7 @@
 #clone_dir="stable-diffusion-webui"
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
-export COMMANDLINE_ARGS=" --autolaunch\
-    --ngrok "2bgSFJcxfMsz8Pv9qTOGeWABfOi_6ZV27TAurGb6w2RoWUXRa"
-    --lowvram\
-    --xformers \
-    --share \
-    --ckpt-dir "/kaggle/temp/models" \
-    --vae-path "/kaggle/working/stable-diffusion-webui/models/VAE"\
-    --enable-insecure-extension-access \
-    --no-half-vae \"
+export COMMANDLINE_ARGS="-f --autolaunch --ngrok "2bgSFJcxfMsz8Pv9qTOGeWABfOi_6ZV27TAurGb6w2RoWUXRa" --lowvram --xformers --share --ckpt-dir "/kaggle/temp/models" --vae-path "/kaggle/working/stable-diffusion-webui/models/VAE"\ --enable-insecure-extension-access --no-half-vae"
 
 # python3 executable
 #python_cmd="python3"
